@@ -1,0 +1,33 @@
+/* Estilos básicos para el navbar */
+#navbar {
+    background-color: #333; /* Color de fondo del navbar */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Estilos para los elementos de la lista de navegación */
+  #navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navbar li {
+    float: left; /* Coloca los elementos de la lista en línea */
+  }
+  
+  /* Estilos para los enlaces del navbar */
+  #navbar a {
+    display: block;
+    color: white; /* Color del texto */
+    text-align: center;
+    padding: 14px 16px; /* Espaciado interior (arriba/abajo, izquierda/derecha) */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+  }
+  
+  /* Cambio de color de fondo en el hover */
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
